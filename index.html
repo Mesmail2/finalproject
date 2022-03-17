@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mohamed Esmail</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar" id="nav-collapsible">
+        <ul class="ul">
+          <li class="nav-list">
+            <a class="list-item" href="#About"> About Me </a>
+          </li>
+          <li class="nav-list">
+            <a class="list-item" href="#Experience"> Previous Experience</a>
+          </li>
+          <li class="nav-list">
+            <a class="list-item" href="#Projects"> Projects</a>
+          </li>
+          <li class="nav-list">
+            <a class="list-item" href="#Contact"> Contact Me </a>
+          </li>
+        </ul>
+      </nav>
+      <section class="background-img" id="home-page">
+        <div class="container-2">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 home-text">
+              <h2 class="home-title">Hi I'm Mohamed</h2>
+              <p class="home-description">I'm an aspiring software engineer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="About">
+        <div class="main">
+          <img src="me.jpg" class="about-img" alt="About me image" />
+          <div class="about-text">
+            <h3 class="text-center">About Me</h3>
+            <p>
+              I am a junior at Portland state University studying computer
+              science. I have 2 years professional experience with software
+              development and python automation. When I'm not programming I
+              enjoy working out, playing video games, and watching anime.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="Experience">
+        <div class="Exp-title">
+          <h4>Work Experience</h4>
+        </div>
+        <div class="box">
+          <div class="card">
+            <i class="fas fa-bars"></i>
+            <h5>Novus Labs</h5>
+            <div class="pra">
+              <p>
+                Creating environments in the chamber for hardware testing and
+                validation: production, compatibility, functionality, and
+                performance testing per client specifications as well as
+                performing stress tests in that environment Reviewing and
+                analyzing system specifications. Utilizing Ubuntu, Linux, and
+                Windows to collaborate with QA Engineers to develop effective
+                strategies and test plans. Executing test cases (manual or
+                automated) and analyze the results. Creating logs to document
+                testing phases and defects if present.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <i class="far fa-user"></i>
+            <h5>Intel</h5>
+            <div class="pra">
+              <p>
+                Developed scripts using C, C++, and python to help aid the
+                design and performance of team’s projects. Familiarity with
+                System Verilog and UVM for validating digital hardware using
+                simulation. Regular use of GitHub to allow the ease of
+                collaboration with my peers and basic task management tools for
+                every project. Writing SQL queries for data management and
+                developed object- oriented programming features to improve
+                reusability within projects
+              </p>
+              <p style="text-align: center"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Projects">
+        <div class="project-title">
+          <h5>Projects</h5>
+        </div>
+        <div class="box">
+          <div class="card">
+            <h5>TimeFlo</h5>
+            <div class="pra">
+              <i class="fas fa-bars"></i>
+              <p>
+                TimeFlo is an implementation of a Pomodoro like timer for
+                breaking out of slow state.
+              </p>
+              <a
+                href="https://gitlab.cecs.pdx.edu/cassaun2/TimeFlo/-/tree/main"
+                style="text-align: center"
+              >
+                Click here
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h5>Web Development Practice</h5>
+            <div class="pra">
+              <i class="fas fa-bars"></i>
+              <p>
+                In this assignment I practiced using asynchronous Javascript, a
+                third-party API, and jQuery. For exercise 01 it was my first
+                time using javascript and had to implement 3 different
+                functions:
+              </p>
+              <a
+                href="https://github.com/Mesmail2/hw0/tree/main/hw5"
+                style="text-align: center"
+              >
+                Click here
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Contact">
+        <div class="contact-me" id="contact">
+          <h7 class="contact-title"> Contact Me</h7>
+          <form action="#" name="contact-form">
+            <div class="contact-row">
+              <div class="contact-row-item">
+                <label for="contact-name">Full Name</label>
+                <input id="contact-name" type="text" />
+              </div>
+              <div class="contact-row-item">
+                <label for="contact-email">Email Address</label>
+                <input id="contact-email" type="email" />
+              </div>
+            </div>
+            <div class="contact-row">
+              <div class="contact-row-item">
+                <label for="contact-subject"> Subject</label>
+                <textarea id="contact-subject" type="text"> </textarea>
+              </div>
+              <div class="contact-row-item">
+                <label for="contact-desc"> Message</label>
+                <textarea id="contact-desc" type="text" rows="3"> </textarea>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
