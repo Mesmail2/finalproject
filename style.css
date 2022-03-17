@@ -1,3 +1,5 @@
+/*Gradient 3D Background inspired by Manuel Pinto on Codepen. https://codepen.io/P1N2O/pen/pyBNzX */
+
 body {
   width: 100%;
   height: 100%;
@@ -24,6 +26,8 @@ body {
   width: 100%;
 }
 
+/*Navbar Styling*/
+
 .navbar {
   display: flex;
   align-items: center;
@@ -46,6 +50,7 @@ body {
 .list-item:hover {
   color: purple;
 }
+/*Intro message*/
 .Portfolio {
   color: white;
   font-size: 36px;
@@ -62,7 +67,6 @@ body {
 
 .background-img {
   height: 100vh;
-  /* background: url("tech.jpg"); */
   background-size: cover;
   position: relative;
 }
@@ -78,12 +82,14 @@ body {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+/*About me section*/
 .about-img {
   height: auto;
   width: 430px;
 }
+
 .main {
-  /* background-color: black; */
   width: 100%;
   max-width: 100%;
   margin: 5 auto;
@@ -106,20 +112,12 @@ body {
   margin-bottom: 45px;
 }
 
+/*Personal Experience*/
 .Experience {
-  /* background: black; */
   width: 100%;
   padding: 100px 0px;
 }
 
-.project-title h5 {
-  margin-top: 2rem;
-  color: white;
-  font-size: 75px;
-  width: 1130px;
-  margin: auto;
-  text-align: center;
-}
 .Exp-title h4 {
   color: white;
   font-size: 75px;
@@ -144,6 +142,16 @@ body {
   overflow: hidden;
   text-align: center;
 }
+/*Projects and github links*/
+.project-title h5 {
+  margin-top: 2rem;
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: auto;
+  text-align: center;
+}
+/*Inspired by Tahmid Ahmed's profile. Link in journal*/
 .card i {
   font-size: 50px;
   display: block;
@@ -202,7 +210,6 @@ textarea,
   font-size: 12px;
   font-weight: 300;
   border-radius: 0;
-
   border-bottom: 1px solid var(--black);
   margin-top: 1rem;
   outline: none;
